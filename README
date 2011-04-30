@@ -31,3 +31,5 @@ save the canvas, with pallet options.
    <%= call_initial_function %>
 
 3. Then you are good to go.
+
+4. Sample application is hosted at http://html5canvas.heroku.com/
