@@ -24,9 +24,31 @@
 
 <p>This application demonstrates how you can add the drawing board, to any rails application, and you can record you drawing.</p>
 
-<pre><code>$ git clone git@github.com:mitijain123/canvas.git
-$ bundle install
-$ rails s
+<pre><code>1. git clone this application
+
+2. cd to "canvas"
+
+3. run the "bundle install"
+
+4. run rails server
+
+5. go to http://localhost:3000
+
+* And you are ready to draw new new things and extract it as image.
+
+* If you use html5_canvas plugin in some other application.
+
+* Then run the following commands after installing the gem.
+
+1. rake canvas:install
+
+2. And include this 2 lines in the view.
+   &lt;%= include_canvas_tag.html_safe %&gt;
+   &lt;%= call_initial_function %&gt;
+
+3. Then you are good to go.
+
+4. Sample application is hosted at http://html5canvas.heroku.com/
 </code></pre>
 
 <h3>
